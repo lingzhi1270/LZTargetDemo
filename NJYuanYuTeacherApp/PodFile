@@ -1,0 +1,33 @@
+platform:ios, '8.0'
+#use_frameworks!
+
+
+#共用的第三方（相当于抽取了一个公共类）
+ def common_Pods
+    pod 'AFNetworking', '~>3.0'
+ end
+    
+
+#老师端
+target 'NJYuanYuTeacherApp' do
+
+  common_Pods
+  pod 'Masonry'
+
+end 
+
+
+#学生端
+target 'NJYuanYuStudentApp' do
+
+  common_Pods
+
+end
+
+#家长端
+target 'NJYuanYuPatriarchApp' do
+
+ common_Pods
+ pod 'YYModel'
+
+end

@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A040406421BDF770009F53CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A04FDBEC21BDF64700836F7A /* main.m */; };
+		A040406521BDF770009F53CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A04FDBDE21BDF64600836F7A /* AppDelegate.m */; };
+		A040406821BDF770009F53CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04FDBE821BDF64700836F7A /* LaunchScreen.storyboard */; };
+		A040406921BDF770009F53CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04FDBE621BDF64700836F7A /* Assets.xcassets */; };
+		A040406A21BDF770009F53CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04FDBE321BDF64600836F7A /* Main.storyboard */; };
+		A040407321BDF798009F53CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A04FDBEC21BDF64700836F7A /* main.m */; };
+		A040407421BDF798009F53CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A04FDBDE21BDF64600836F7A /* AppDelegate.m */; };
+		A040407721BDF798009F53CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04FDBE821BDF64700836F7A /* LaunchScreen.storyboard */; };
+		A040407821BDF798009F53CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04FDBE621BDF64700836F7A /* Assets.xcassets */; };
+		A040407921BDF798009F53CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04FDBE321BDF64600836F7A /* Main.storyboard */; };
+		A040408321BDFCF2009F53CE /* NJYuanYuPatriarchApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A040408221BDFCF2009F53CE /* NJYuanYuPatriarchApp-Info.plist */; };
+		A040408521BDFCFF009F53CE /* NJYuanYuStudentApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A040408421BDFCFF009F53CE /* NJYuanYuStudentApp-Info.plist */; };
+		A04FDBDF21BDF64600836F7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A04FDBDE21BDF64600836F7A /* AppDelegate.m */; };
+		A04FDBE521BDF64600836F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04FDBE321BDF64600836F7A /* Main.storyboard */; };
+		A04FDBE721BDF64700836F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04FDBE621BDF64700836F7A /* Assets.xcassets */; };
+		A04FDBEA21BDF64700836F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04FDBE821BDF64700836F7A /* LaunchScreen.storyboard */; };
+		A04FDBED21BDF64700836F7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A04FDBEC21BDF64700836F7A /* main.m */; };
+		C3F1F917BCB738E7370FB840 /* libPods-NJYuanYuStudentApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C21C6F1454C0637FED8A0A0 /* libPods-NJYuanYuStudentApp.a */; };
+		CC658A6C13C15081108F2558 /* libPods-NJYuanYuTeacherApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5335DD33DE25994C6D306A /* libPods-NJYuanYuTeacherApp.a */; };
+		DF1CB1965E22B468ECA2B967 /* libPods-NJYuanYuPatriarchApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F18CA9CB332F81BDEB731AAA /* libPods-NJYuanYuPatriarchApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D5335DD33DE25994C6D306A /* libPods-NJYuanYuTeacherApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NJYuanYuTeacherApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		355455F052690EE988633246 /* Pods-NJYuanYuTeacherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJYuanYuTeacherApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NJYuanYuTeacherApp/Pods-NJYuanYuTeacherApp.debug.xcconfig"; sourceTree = "<group>"; };
+		66F033F60302BA04AADDA448 /* Pods-NJYuanYuStudentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJYuanYuStudentApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NJYuanYuStudentApp/Pods-NJYuanYuStudentApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8C21C6F1454C0637FED8A0A0 /* libPods-NJYuanYuStudentApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NJYuanYuStudentApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DAF12A6F32DE51C03719DE /* Pods-NJYuanYuPatriarchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJYuanYuPatriarchApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NJYuanYuPatriarchApp/Pods-NJYuanYuPatriarchApp.release.xcconfig"; sourceTree = "<group>"; };
+		A040406E21BDF770009F53CE /* NJYuanYuStudentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJYuanYuStudentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A040407D21BDF798009F53CE /* NJYuanYuPatriarchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJYuanYuPatriarchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A040408221BDFCF2009F53CE /* NJYuanYuPatriarchApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NJYuanYuPatriarchApp-Info.plist"; sourceTree = "<group>"; };
+		A040408421BDFCFF009F53CE /* NJYuanYuStudentApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NJYuanYuStudentApp-Info.plist"; sourceTree = "<group>"; };
+		A04FDBDA21BDF64600836F7A /* NJYuanYuTeacherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJYuanYuTeacherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04FDBDD21BDF64600836F7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A04FDBDE21BDF64600836F7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A04FDBE421BDF64600836F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A04FDBE621BDF64700836F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A04FDBE921BDF64700836F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A04FDBEB21BDF64700836F7A /* NJYuanYuTeacherApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NJYuanYuTeacherApp-Info.plist"; sourceTree = "<group>"; };
+		A04FDBEC21BDF64700836F7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D66643950C393142FAB9024F /* Pods-NJYuanYuStudentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJYuanYuStudentApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NJYuanYuStudentApp/Pods-NJYuanYuStudentApp.release.xcconfig"; sourceTree = "<group>"; };
+		DBCD6DCA9ADA5B1D3EB81435 /* Pods-NJYuanYuPatriarchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJYuanYuPatriarchApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NJYuanYuPatriarchApp/Pods-NJYuanYuPatriarchApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DD7B29447CEFCC0F5E1F893E /* Pods-NJYuanYuTeacherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NJYuanYuTeacherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NJYuanYuTeacherApp/Pods-NJYuanYuTeacherApp.release.xcconfig"; sourceTree = "<group>"; };
+		F18CA9CB332F81BDEB731AAA /* libPods-NJYuanYuPatriarchApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NJYuanYuPatriarchApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A040406621BDF770009F53CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F1F917BCB738E7370FB840 /* libPods-NJYuanYuStudentApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A040407521BDF798009F53CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1CB1965E22B468ECA2B967 /* libPods-NJYuanYuPatriarchApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04FDBD721BDF64600836F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC658A6C13C15081108F2558 /* libPods-NJYuanYuTeacherApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29ABDAA4D848BDDB4D9F8652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F18CA9CB332F81BDEB731AAA /* libPods-NJYuanYuPatriarchApp.a */,
+				8C21C6F1454C0637FED8A0A0 /* libPods-NJYuanYuStudentApp.a */,
+				2D5335DD33DE25994C6D306A /* libPods-NJYuanYuTeacherApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DA41F6DE5179E456FA6A923 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBCD6DCA9ADA5B1D3EB81435 /* Pods-NJYuanYuPatriarchApp.debug.xcconfig */,
+				92DAF12A6F32DE51C03719DE /* Pods-NJYuanYuPatriarchApp.release.xcconfig */,
+				66F033F60302BA04AADDA448 /* Pods-NJYuanYuStudentApp.debug.xcconfig */,
+				D66643950C393142FAB9024F /* Pods-NJYuanYuStudentApp.release.xcconfig */,
+				355455F052690EE988633246 /* Pods-NJYuanYuTeacherApp.debug.xcconfig */,
+				DD7B29447CEFCC0F5E1F893E /* Pods-NJYuanYuTeacherApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A040407F21BDF90B009F53CE /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				A04FDBEB21BDF64700836F7A /* NJYuanYuTeacherApp-Info.plist */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		A040408021BDF913009F53CE /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				A040408421BDFCFF009F53CE /* NJYuanYuStudentApp-Info.plist */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		A040408121BDF919009F53CE /* Patriarch */ = {
+			isa = PBXGroup;
+			children = (
+				A040408221BDFCF2009F53CE /* NJYuanYuPatriarchApp-Info.plist */,
+			);
+			path = Patriarch;
+			sourceTree = "<group>";
+		};
+		A040408621BDFD5F009F53CE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A04FDBDD21BDF64600836F7A /* AppDelegate.h */,
+				A04FDBDE21BDF64600836F7A /* AppDelegate.m */,
+				A04FDBE321BDF64600836F7A /* Main.storyboard */,
+				A04FDBE621BDF64700836F7A /* Assets.xcassets */,
+				A04FDBE821BDF64700836F7A /* LaunchScreen.storyboard */,
+				A04FDBEC21BDF64700836F7A /* main.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A04FDBD121BDF64600836F7A = {
+			isa = PBXGroup;
+			children = (
+				A04FDBDC21BDF64600836F7A /* NJYuanYuTeacherApp */,
+				A04FDBDB21BDF64600836F7A /* Products */,
+				8DA41F6DE5179E456FA6A923 /* Pods */,
+				29ABDAA4D848BDDB4D9F8652 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A04FDBDB21BDF64600836F7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A04FDBDA21BDF64600836F7A /* NJYuanYuTeacherApp.app */,
+				A040406E21BDF770009F53CE /* NJYuanYuStudentApp.app */,
+				A040407D21BDF798009F53CE /* NJYuanYuPatriarchApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A04FDBDC21BDF64600836F7A /* NJYuanYuTeacherApp */ = {
+			isa = PBXGroup;
+			children = (
+				A040408621BDFD5F009F53CE /* AppDelegate */,
+				A040408121BDF919009F53CE /* Patriarch */,
+				A040408021BDF913009F53CE /* Student */,
+				A040407F21BDF90B009F53CE /* Teacher */,
+			);
+			path = NJYuanYuTeacherApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A040406121BDF770009F53CE /* NJYuanYuStudentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A040406B21BDF770009F53CE /* Build configuration list for PBXNativeTarget "NJYuanYuStudentApp" */;
+			buildPhases = (
+				BB9AC9E036CE691538BA3A3D /* [CP] Check Pods Manifest.lock */,
+				A040406221BDF770009F53CE /* Sources */,
+				A040406621BDF770009F53CE /* Frameworks */,
+				A040406721BDF770009F53CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NJYuanYuStudentApp;
+			productName = NJYuanYuTeacherApp;
+			productReference = A040406E21BDF770009F53CE /* NJYuanYuStudentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A040407021BDF798009F53CE /* NJYuanYuPatriarchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A040407A21BDF798009F53CE /* Build configuration list for PBXNativeTarget "NJYuanYuPatriarchApp" */;
+			buildPhases = (
+				0DDEACA2FD8A1C5AB760D4A2 /* [CP] Check Pods Manifest.lock */,
+				A040407121BDF798009F53CE /* Sources */,
+				A040407521BDF798009F53CE /* Frameworks */,
+				A040407621BDF798009F53CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NJYuanYuPatriarchApp;
+			productName = NJYuanYuTeacherApp;
+			productReference = A040407D21BDF798009F53CE /* NJYuanYuPatriarchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A04FDBD921BDF64600836F7A /* NJYuanYuTeacherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04FDC0621BDF64700836F7A /* Build configuration list for PBXNativeTarget "NJYuanYuTeacherApp" */;
+			buildPhases = (
+				A2825717776FFC6F6EFFD431 /* [CP] Check Pods Manifest.lock */,
+				A04FDBD621BDF64600836F7A /* Sources */,
+				A04FDBD721BDF64600836F7A /* Frameworks */,
+				A04FDBD821BDF64600836F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NJYuanYuTeacherApp;
+			productName = NJYuanYuTeacherApp;
+			productReference = A04FDBDA21BDF64600836F7A /* NJYuanYuTeacherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A04FDBD221BDF64600836F7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = lingzhi;
+				TargetAttributes = {
+					A04FDBD921BDF64600836F7A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A04FDBD521BDF64600836F7A /* Build configuration list for PBXProject "NJYuanYuTeacherApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A04FDBD121BDF64600836F7A;
+			productRefGroup = A04FDBDB21BDF64600836F7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A04FDBD921BDF64600836F7A /* NJYuanYuTeacherApp */,
+				A040406121BDF770009F53CE /* NJYuanYuStudentApp */,
+				A040407021BDF798009F53CE /* NJYuanYuPatriarchApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A040406721BDF770009F53CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A040406821BDF770009F53CE /* LaunchScreen.storyboard in Resources */,
+				A040406921BDF770009F53CE /* Assets.xcassets in Resources */,
+				A040406A21BDF770009F53CE /* Main.storyboard in Resources */,
+				A040408521BDFCFF009F53CE /* NJYuanYuStudentApp-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A040407621BDF798009F53CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A040408321BDFCF2009F53CE /* NJYuanYuPatriarchApp-Info.plist in Resources */,
+				A040407721BDF798009F53CE /* LaunchScreen.storyboard in Resources */,
+				A040407821BDF798009F53CE /* Assets.xcassets in Resources */,
+				A040407921BDF798009F53CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04FDBD821BDF64600836F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04FDBEA21BDF64700836F7A /* LaunchScreen.storyboard in Resources */,
+				A04FDBE721BDF64700836F7A /* Assets.xcassets in Resources */,
+				A04FDBE521BDF64600836F7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DDEACA2FD8A1C5AB760D4A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NJYuanYuPatriarchApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2825717776FFC6F6EFFD431 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NJYuanYuTeacherApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB9AC9E036CE691538BA3A3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NJYuanYuStudentApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A040406221BDF770009F53CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A040406421BDF770009F53CE /* main.m in Sources */,
+				A040406521BDF770009F53CE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A040407121BDF798009F53CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A040407321BDF798009F53CE /* main.m in Sources */,
+				A040407421BDF798009F53CE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04FDBD621BDF64600836F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04FDBED21BDF64700836F7A /* main.m in Sources */,
+				A04FDBDF21BDF64600836F7A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A04FDBE321BDF64600836F7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A04FDBE421BDF64600836F7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A04FDBE821BDF64700836F7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A04FDBE921BDF64700836F7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A040406C21BDF770009F53CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F033F60302BA04AADDA448 /* Pods-NJYuanYuStudentApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TargetType=2",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/NJYuanYuTeacherApp/Student/NJYuanYuStudentApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanyu.NJYuanYuStudentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A040406D21BDF770009F53CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66643950C393142FAB9024F /* Pods-NJYuanYuStudentApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = "TargetType=2";
+				INFOPLIST_FILE = "$(SRCROOT)/NJYuanYuTeacherApp/Student/NJYuanYuStudentApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanyu.NJYuanYuStudentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A040407B21BDF798009F53CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBCD6DCA9ADA5B1D3EB81435 /* Pods-NJYuanYuPatriarchApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TargetType=3",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/NJYuanYuTeacherApp/Patriarch/NJYuanYuPatriarchApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanyu.NJYuanYuPatriarchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A040407C21BDF798009F53CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92DAF12A6F32DE51C03719DE /* Pods-NJYuanYuPatriarchApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = "TargetType=3";
+				INFOPLIST_FILE = "$(SRCROOT)/NJYuanYuTeacherApp/Patriarch/NJYuanYuPatriarchApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanyu.NJYuanYuPatriarchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A04FDC0421BDF64700836F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A04FDC0521BDF64700836F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A04FDC0721BDF64700836F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 355455F052690EE988633246 /* Pods-NJYuanYuTeacherApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TargetType=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/NJYuanYuTeacherApp/Teacher/NJYuanYuTeacherApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanyu.NJYuanYuTeacherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A04FDC0821BDF64700836F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7B29447CEFCC0F5E1F893E /* Pods-NJYuanYuTeacherApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = "TargetType=1";
+				INFOPLIST_FILE = "$(SRCROOT)/NJYuanYuTeacherApp/Teacher/NJYuanYuTeacherApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanyu.NJYuanYuTeacherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A040406B21BDF770009F53CE /* Build configuration list for PBXNativeTarget "NJYuanYuStudentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A040406C21BDF770009F53CE /* Debug */,
+				A040406D21BDF770009F53CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A040407A21BDF798009F53CE /* Build configuration list for PBXNativeTarget "NJYuanYuPatriarchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A040407B21BDF798009F53CE /* Debug */,
+				A040407C21BDF798009F53CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04FDBD521BDF64600836F7A /* Build configuration list for PBXProject "NJYuanYuTeacherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04FDC0421BDF64700836F7A /* Debug */,
+				A04FDC0521BDF64700836F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04FDC0621BDF64700836F7A /* Build configuration list for PBXNativeTarget "NJYuanYuTeacherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04FDC0721BDF64700836F7A /* Debug */,
+				A04FDC0821BDF64700836F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A04FDBD221BDF64600836F7A /* Project object */;
+}
